@@ -15,6 +15,7 @@
 		004AB7A81A043D29009521D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004AB7A71A043D29009521D0 /* Images.xcassets */; };
 		004AB7AB1A043D29009521D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004AB7A91A043D29009521D0 /* LaunchScreen.xib */; };
 		004AB7B71A043D29009521D0 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7B61A043D29009521D0 /* Drawing_a_HouseTests.m */; };
+		004AB7C21A043D86009521D0 /* HouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7C11A043D86009521D0 /* HouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		004AB7B01A043D29009521D0 /* Drawing a HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing a HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		004AB7B51A043D29009521D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004AB7B61A043D29009521D0 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		004AB7C01A043D86009521D0 /* HouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseView.h; sourceTree = "<group>"; };
+		004AB7C11A043D86009521D0 /* HouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +88,11 @@
 			children = (
 				004AB79B1A043D29009521D0 /* AppDelegate.h */,
 				004AB79C1A043D29009521D0 /* AppDelegate.m */,
+				004AB7A41A043D29009521D0 /* Main.storyboard */,
+				004AB7C01A043D86009521D0 /* HouseView.h */,
+				004AB7C11A043D86009521D0 /* HouseView.m */,
 				004AB7A11A043D29009521D0 /* ViewController.h */,
 				004AB7A21A043D29009521D0 /* ViewController.m */,
-				004AB7A41A043D29009521D0 /* Main.storyboard */,
 				004AB7A71A043D29009521D0 /* Images.xcassets */,
 				004AB7A91A043D29009521D0 /* LaunchScreen.xib */,
 				004AB79E1A043D29009521D0 /* Drawing_a_House.xcdatamodeld */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004AB7C21A043D86009521D0 /* HouseView.m in Sources */,
 				004AB79D1A043D29009521D0 /* AppDelegate.m in Sources */,
 				004AB79A1A043D29009521D0 /* main.m in Sources */,
 				004AB7A31A043D29009521D0 /* ViewController.m in Sources */,
